@@ -1,0 +1,16 @@
+- name: Prerequis
+  hosts: all
+  become: yes
+  remote_user: thomas
+  roles:
+   - prerequis
+
+- name: Installation du serveur web
+  hosts: all
+  roles:
+   - sqlweb
+
+- name: Installation de mariadb
+  hosts: all
+  roles:
+   - bdd

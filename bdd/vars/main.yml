@@ -1,0 +1,13 @@
+---
+# vars file for bdd
+db_host: "app-salaire.thomas.form"
+webserver_host: "app-salaire.thomas.form"
+
+mysql_dbname:
+  - 'dbsalaire'
+
+mysql_user:
+  - 'root'
+
+mysql_password:
+  - 'root'

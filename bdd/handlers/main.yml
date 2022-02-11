@@ -1,0 +1,6 @@
+---
+# handlers file for bdd
+- name: restart_mariadb
+  systemd: 
+   name: mariadb-server
+   state: restarted

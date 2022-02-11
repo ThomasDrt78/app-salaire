@@ -1,0 +1,13 @@
+---
+# vars file for sqlweb
+apache_packages:
+  - php
+  - php-mysql
+  - httpd
+
+vars:
+ - mysql_user: "root"
+ - mysql_password: "root"
+ - mysql_dbname: "app-salaire"
+ - db_host: "192.168.56.105"
+ - webserver_host: "192.168.56.105"
